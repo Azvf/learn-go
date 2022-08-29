@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package route;
 
-option go_package = "./";
+option go_package = "github.com/Azvf/learn-go/grpc_example/route";
 
 message Point {
     int32 longtitude = 1;
