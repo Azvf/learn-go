@@ -5,8 +5,8 @@ option go_package = "github.com/Azvf/learn-go/grpc_example/route";
 package route;
 
 message Point {
-    int32 longtitude = 1;
-    int32 latitude = 2;
+    int32 Longitude = 1;
+    int32 Latitude = 2;
 }
 
 message Rectangle {
